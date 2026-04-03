@@ -1,3 +1,4 @@
+#foprogram -----> main
 #tobbi fajl importalasa
 import menu
 import vasarlok
@@ -11,11 +12,11 @@ def main():
     receptek = recept.Recept()
     vasarlasok = vasarlok.Vasarlok()
     
-    # Az aktív rendelések asztalonként tárolása
+    # Az aktív rendelések asztalonként való tárolása
     aktiv_rendelesek = {}
 
     while True:
-        #Rendelési opciók
+        # Opciók
         print("\n=== ÉTTERMI RENDELŐ ===")
         print("1. Új rendelés nyitása")
         print("2. Étel hozzáadása rendeléshez")
